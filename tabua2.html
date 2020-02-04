@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>tabuada</title>
+</head>
+<body>
+	<input type="number" id="v1"><br>
+	<input type="number" id="v2">
+	<p id="res">Resposta: </p>
+	<button type="button" onclick="Soma()">Soma</button>
+<script type="text/javascript">
+function Soma(){
+var e1 = Number(document.getElementById("v1").value);
+var e2 = Number(document.getElementById("v2").value);
+document.getElementById("res").innerHTML = "Resposta: " + (e1 + e2);
+}
+</script>
+</body>
+</html>
